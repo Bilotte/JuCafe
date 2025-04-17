@@ -1,3 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Noto+Sans+JP:wght@100..900&display=swap');
+
 body{
-    background-color: rgb(117, 4, 4);
+    background-color: rgb(255, 255, 255);
 }
+
+/* HEADER */
+.header {
+    background-color: rgb(56, 0, 0);
+    height: 20vh;
+    /*136px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+} 
+
+.header__title {
+    font-weight: bold;
+    color: rgb(248, 229, 175);
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 176;
+    height: 120;
+    width: 590; 
+    height: 60;
+    gap: 16px;
+    
+}
+   
+.header__title--wellow {
+    color: #ff0000;
+}
+span{
+    color: #5a4928;
+}
+
+.fa-solid{
+    color: rgb(255, 255, 196);
+    font-weight: 400;
+    font-size: 75px;
+}
+    
+
